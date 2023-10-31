@@ -71,7 +71,7 @@ export class TodosController {
 
     }
 
-    public deleteTodo = (req: Request, res: Response) {
+    public deleteTodo = (req: Request, res: Response) => {
 
       const id = +req.params.id;
 
